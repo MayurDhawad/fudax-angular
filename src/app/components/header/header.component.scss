@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+$dark: #0d2735;
+$info: #3b6580;
+$primary: #213c4b;
+$secondary: #0a1b26;
+
+.btn-info {
+  color: #fff;
+  background-color: $info;
+  border-color: $info;
+}
+
+/*------------- Header --------------*/
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  width: 95%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.nav-link {
+  margin: 0px 5px;
+}
+.card {
+  background-color: $dark;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  pointer-events: none;
+}

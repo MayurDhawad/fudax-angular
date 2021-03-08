@@ -1,0 +1,1260 @@
+<app-header></app-header>
+
+<!----------- Main Section ----------->
+<section class="main-section bg-dark" style="background-image: url('./assets/background-2.png')">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-5">
+                <div class="text-white">
+                    <h1>The Global Digital Coin Exchange</h1>
+                    <p>Where Innovative Digital Assets Gather</p>
+                    <small>Buy and trade Bitcoin, Bitcoin Cash, Ethereum, Ripple<br> and more than 200 Altcoins</small>
+                </div>
+            </div>
+            <div class="col-12 col-lg-7 mt-4 mt-lg-0 my-auto">
+                <owl-carousel-o [options]="customOptions">
+                    <ng-template carouselSlide>
+                        <div class="card rounded border-0">
+                            <img class="rounded" src="assets/main1.png" alt="">
+                        </div>
+                    </ng-template>  
+                    <ng-template carouselSlide>
+                        <div class="card rounded border-0">
+                            <img class="rounded" src="assets/main2.jpg" alt="">
+                        </div>
+                    </ng-template>  
+                    <ng-template carouselSlide>
+                        <div class="card rounded border-0">
+                            <img class="rounded" src="assets/main3.png" alt="">
+                        </div>
+                    </ng-template>  
+                    <ng-template carouselSlide>
+                        <div class="card rounded border-0">
+                            <img class="rounded" src="assets/main4.jpg" alt="">
+                        </div>
+                    </ng-template>  
+                    <ng-template carouselSlide>
+                        <div class="card rounded border-0">
+                            <img class="rounded" src="assets/main5.jpg" alt="">
+                        </div>
+                    </ng-template>  
+                </owl-carousel-o>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="breaking bg-dark border-top border-primary shadow-lg">
+    <div class="container py-2">
+        <p class="mb-0 text-center text-white">Info Bar</p>
+    </div>
+</section>
+
+<section class="coins-card">
+    <div class="container-fluid py-2">
+        <owl-carousel-o [options]="customOptions1">
+            <ng-template carouselSlide>
+                <div class="slide card p-2 rounded">
+                    <div class="media d-flex">
+                        <div class="media-body">
+                            <h6 class="mb-0 lead">Bitcoin</h6>
+                            <small>Bitcoin Price (BTC)</small>
+                        </div>
+                        <img src="assets/BTC.png" alt="John Doe" class="rounded-circle my-auto ms-auto" style="width:25px;height: 25px">
+                    </div>
+                    <div class="content d-flex w-100 mt-3">
+                        <div>
+                            <h6>BTC/USDT</h6>
+                            <h3>50608</h3>
+                            <h5>+50</h5>
+                        </div>
+                        <div class="ms-auto my-auto">
+                            <small class="text-success">+3.6%</small>
+                            <img class="" src="assets/BTC.png" alt="" style="height: 50px;width: 50px">
+                        </div>
+                    </div>
+                </div>
+            </ng-template> 
+
+            <ng-template carouselSlide>
+                <div class="slide card p-2 rounded">
+                    <div class="media d-flex">
+                        <div class="media-body">
+                            <h6 class="mb-0 lead">Ethereum</h6>
+                            <small>Ethereum Price (ETH)</small>
+                        </div>
+                        <img src="assets/ETH.png" alt="John Doe" class="rounded-circle my-auto ms-auto" style="width:25px;height: 25px">
+                    </div>
+                    <div class="content d-flex w-100 mt-3">
+                        <div>
+                            <h6>ETH/USDT</h6>
+                            <h3>1178</h3>
+                            <h5>+36</h5>
+                        </div>
+                        <div class="ms-auto my-auto">
+                            <small class="text-success">+3.6%</small>
+                            <img class="" src="assets/ETH.png" alt="" style="height: 50px;width: 50px">
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+            
+            <ng-template carouselSlide>
+                <div class="slide card p-2 rounded">
+                    <div class="media d-flex">
+                        <div class="media-body">
+                            <h6 class="mb-0 lead">Litecoin</h6>
+                            <small>Litecoin Price (LTC)</small>
+                        </div>
+                        <img src="assets/LTC.png" alt="John Doe" class="rounded-circle my-auto ms-auto" style="width:25px;height: 25px">
+                    </div>
+                    <div class="content d-flex w-100 mt-3">
+                        <div>
+                            <h6>LTC/USDT</h6>
+                            <h3>1253</h3>
+                            <h5>+30</h5>
+                        </div>
+                        <div class="ms-auto my-auto">
+                            <small class="text-success">+3.6%</small>
+                            <img class="" src="assets/LTC.png" alt="" style="height: 50px;width: 50px">
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+
+            <ng-template carouselSlide>
+                <div class="slide card p-2 rounded">
+                    <div class="media d-flex">
+                        <div class="media-body">
+                            <h6 class="mb-0 lead">Bitcoin cash</h6>
+                            <small>Bitcoin Cash Price (BCH)</small>
+                        </div>
+                        <img src="assets/BCH.png" alt="John Doe" class="rounded-circle my-auto ms-auto" style="width:25px;height: 25px">
+                    </div>
+                    <div class="content d-flex w-100 mt-3">
+                        <div>
+                            <h6>BCH/USDT</h6>
+                            <h3>5608</h3>
+                            <h5>+50</h5>
+                        </div>
+                        <div class="ms-auto my-auto">
+                            <small class="text-success">+3.6%</small>
+                            <img class="" src="assets/BCH.png" alt="" style="height: 50px;width: 50px">
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+
+            <ng-template carouselSlide>
+                <div class="slide card p-2 rounded">
+                    <div class="media d-flex">
+                        <div class="media-body">
+                            <h6 class="mb-0 lead">Ripple</h6>
+                            <small>Ripple Price (XRP)</small>
+                        </div>
+                        <img src="assets/XRP.png" alt="John Doe" class="rounded-circle my-auto ms-auto" style="width:25px;height: 25px">
+                    </div>
+                    <div class="content d-flex w-100 mt-3">
+                        <div>
+                            <h6>XRP/USDT</h6>
+                            <h3>112</h3>
+                            <h5>+14</h5>
+                        </div>
+                        <div class="ms-auto my-auto">
+                            <small class="text-success">+3.6%</small>
+                            <img class="" src="assets/XRP.png" alt="" style="height: 50px;width: 50px">
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+
+            <ng-template carouselSlid>
+                <div class="slide card p-2 rounded">
+                    <div class="media d-flex">
+                        <div class="media-body">
+                            <h6 class="mb-0 lead">Bitcoin</h6>
+                            <small>Bitcoin Price (BTC)</small>
+                        </div>
+                        <img src="assets/BTC.png" alt="John Doe" class="rounded-circle my-auto ms-auto" style="width:25px;height: 25px">
+                    </div>
+                    <div class="content d-flex w-100 mt-3">
+                        <div>
+                            <h6>BTC/USDT</h6>
+                            <h3>50608</h3>
+                            <h5>+50</h5>
+                        </div>
+                        <div class="ms-auto my-auto">
+                            <small class="text-success">+3.6%</small>
+                            <img class="" src="assets/BTC.png" alt="" style="height: 50px;width: 50px">
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+        </owl-carousel-o>
+    </div>
+</section>
+
+<section class="markets">
+    <div class="container">
+        <div class="section-title">
+            <h2>Markets</h2>
+        </div>
+        <div class="row">
+            <div class="col-12 table-responsive">
+                <table class="table text-center table-hover table-bordered ">
+                    <thead class="thead-dark">
+                        <tr class="table-dark">
+                            <th>Name</th>
+                            <th>Last Price</th>
+                            <th>24hr Change</th>
+                            <th>Markets</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="d-flex justify-content-start ps-3">
+                                <img height="35px" width="35px" src="./assets/BTC.png" alt="">
+                                <h5 class="my-auto ms-3">Bitcoin</h5>
+                                <small class="my-auto ms-3">(BTC)</small>
+                            </td>
+                            <td class="pt-3">$299</td>
+                            <td class="pt-3">john@example.com</td>
+                            <td class="pt-3">john@example.com</td>
+                        </tr>
+                        <tr>   
+                            <td class="d-flex justify-content-start ps-3">
+                                <img height="35px" width="35px" src="./assets/ETH.png" alt="">
+                                <h5 class="my-auto ms-3">Ethereum</h5>
+                                <small class="my-auto ms-3">(ETH)</small>
+                            </td>
+                            <td class="pt-3">$299</td>
+                            <td class="pt-3">mary@example.com</td>
+                            <td class="pt-3">john@example.com</td>
+                        </tr>
+                        <tr>
+                            <td class="d-flex justify-content-start ps-3">
+                                <img height="35px" width="35px" src="./assets/LTC.png" alt="">
+                                <h5 class="my-auto ms-3">Litecoin</h5>
+                                <small class="my-auto ms-3">(LTC)</small>
+                            </td>
+                            <td class="pt-3">$299</td>
+                            <td class="pt-3">john@example.com</td>
+                            <td class="pt-3">july@example.com</td>
+                        </tr>
+                        <tr>
+                            <td class="d-flex justify-content-start ps-3">
+                                <img height="35px" width="35px" src="./assets/BCH.png" alt="">
+                                <h5 class="my-auto ms-3">Bitcoin Cash</h5>
+                                <small class="my-auto ms-3">(BCH)</small>
+                            </td>
+                            <td class="pt-3">$299</td>
+                            <td class="pt-3">john@example.com</td>
+                            <td class="pt-3">july@example.com</td>
+                        </tr>
+                        <tr>
+                            <td class="d-flex justify-content-start ps-3">
+                                <img height="35px" width="35px" src="./assets/XRP.png" alt="">
+                                <h5 class="my-auto ms-3">Ripple</h5>
+                                <small class="my-auto ms-3">(XRP)</small>
+                            </td>
+                            <td class="pt-3">$299</td>
+                            <td class="pt-3">john@example.com</td>
+                            <td class="pt-3">july@example.com</td>
+                        </tr>
+                        <tr>
+                            <td class="d-flex justify-content-start ps-3">
+                                <img height="35px" width="35px" src="./assets/BTC.png" alt="">
+                                <h5 class="my-auto ms-3">Bitcoin</h5>
+                                <small class="my-auto ms-3">(BTC)</small>
+                            </td>
+                            <td class="pt-3">$299</td>
+                            <td class="pt-3">john@example.com</td>
+                            <td class="pt-3">john@example.com</td>
+                        </tr>
+                        <tr>   
+                            <td class="d-flex justify-content-start ps-3">
+                                <img height="35px" width="35px" src="./assets/ETH.png" alt="">
+                                <h5 class="my-auto ms-3">Ethereum</h5>
+                                <small class="my-auto ms-3">(ETH)</small>
+                            </td>
+                            <td class="pt-3">$299</td>
+                            <td class="pt-3">mary@example.com</td>
+                            <td class="pt-3">john@example.com</td>
+                        </tr>
+                        <tr>
+                            <td class="d-flex justify-content-start ps-3">
+                                <img height="35px" width="35px" src="./assets/LTC.png" alt="">
+                                <h5 class="my-auto ms-3">Litecoin</h5>
+                                <small class="my-auto ms-3">(LTC)</small>
+                            </td>
+                            <td class="pt-3">$299</td>
+                            <td class="pt-3">john@example.com</td>
+                            <td class="pt-3">july@example.com</td>
+                        </tr>
+                        <tr>
+                            <td class="d-flex justify-content-start ps-3">
+                                <img height="35px" width="35px" src="./assets/BCH.png" alt="">
+                                <h5 class="my-auto ms-3">Bitcoin Cash</h5>
+                                <small class="my-auto ms-3">(BCH)</small>
+                            </td>
+                            <td class="pt-3">$299</td>
+                            <td class="pt-3">john@example.com</td>
+                            <td class="pt-3">july@example.com</td>
+                        </tr>
+                        <tr>
+                            <td class="d-flex justify-content-start ps-3">
+                                <img height="35px" width="35px" src="./assets/XRP.png" alt="">
+                                <h5 class="my-auto ms-3">Ripple</h5>
+                                <small class="my-auto ms-3">(XRP)</small>
+                            </td>
+                            <td class="pt-3">$299</td>
+                            <td class="pt-3">john@example.com</td>
+                            <td class="pt-3">july@example.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- <section class="section" id="cards">
+    <div class="container py-5">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Top</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">New</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Upcoming</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="row">
+                    <div class="col-12 col-lg-6 mt-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12 col-sm-5 col-lg-5 border-end">
+                                        <div class="media d-flex p-1">
+                                            <img src="assets/BTC.png" alt="John Doe" class="rounded-circle my-auto" style="width:30px;height: 30px;">
+                                            <div class="media-body ms-3">
+                                            <h6 class="mb-0 lead">PFI (Protocol Finance)</h6>
+                                            <small>2021-21-01 10:37</small>
+                                            </div>
+                                        </div>
+                                        <div class="text-middle">
+                                            <div class="d-flex w-100 mt-4">
+                                                <h6>PFI/ETH</h6>
+                                                <p class="text-success ms-4 mb-0">+34.53%</p>
+                                            </div>
+                                        <div class="d-flex mt-2 mb-3">
+                                                <h1 class="mb-0 text-white">0.04481 </h1>
+                                                <small class="ms-2 mt-4">0.88</small>
+                                        </div>
+                                        </div>
+                                        <div>
+                                            <button class="btn btn-info w-100 mb-3 mb-lg-0">Buy Protocol Finance</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-7 col-lg-7 px-4">
+                                    <div class="start-text d-flex w-100">
+                                            <h5 class="me-2">Buy Protocol Finance </h5>
+                                            <i class="bi bi-link-45deg text-info fs-6"></i>
+                                            <i class="bi bi-star text-info fs-6 ms-auto"></i>
+                                    </div>
+                                    <div class="middle-text">
+                                        <a>What is Protocol Finance?</a>
+                                        <p>The Protocol Finance Vision is to build several decentralized financial applications (Defi - Apps) and then develop these products into full fledged </p>
+                                    </div>
+                                    <div class="mt-4">
+                                        <button class="btn btn-outline-info mt-2 w-100">How to Buy Protocol Finance</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12 col-sm-5 col-lg-5 border-end">
+                                        <div class="media d-flex p-1">
+                                            <img src="assets/ETH.png" alt="John Doe" class="rounded-circle my-auto" style="width:30px;height: 30px;">
+                                            <div class="media-body ms-3">
+                                            <h6 class="mb-0 lead">PFI (Protocol Finance)</h6>
+                                            <small>2021-21-01 10:37</small>
+                                            </div>
+                                        </div>
+                                        <div class="text-middle">
+                                            <div class="d-flex w-100 mt-4">
+                                                <h6>PFI/ETH</h6>
+                                                <p class="text-success ms-4 mb-0">+34.53%</p>
+                                            </div>
+                                        <div class="d-flex mt-2 mb-3">
+                                                <h1 class="mb-0 text-white">0.04481 </h1>
+                                                <small class="ms-2 mt-4">0.88</small>
+                                        </div>
+                                        </div>
+                                        <div>
+                                            <button class="btn btn-info w-100 mb-3 mb-lg-0">Buy Protocol Finance</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-7 col-lg-7 px-4">
+                                    <div class="start-text d-flex w-100">
+                                            <h5 class="me-2">Buy Protocol Finance </h5>
+                                            <i class="bi bi-link-45deg text-info fs-6"></i>
+                                            <i class="bi bi-star text-info fs-6 ms-auto"></i>
+                                    </div>
+                                    <div class="middle-text">
+                                        <a>What is Protocol Finance?</a>
+                                        <p>The Protocol Finance Vision is to build several decentralized financial applications (Defi - Apps) and then develop these products into full fledged </p>
+                                    </div>
+                                    <div class="mt-4">
+                                        <button class="btn btn-outline-info mt-2 w-100">How to Buy Protocol Finance</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12 col-sm-5 col-lg-5 border-end">
+                                        <div class="media d-flex p-1">
+                                            <img src="assets/LTC.png" alt="John Doe" class="rounded-circle my-auto" style="width:30px;height: 30px;">
+                                            <div class="media-body ms-3">
+                                            <h6 class="mb-0 lead">PFI (Protocol Finance)</h6>
+                                            <small>2021-21-01 10:37</small>
+                                            </div>
+                                        </div>
+                                        <div class="text-middle">
+                                            <div class="d-flex w-100 mt-4">
+                                                <h6>PFI/ETH</h6>
+                                                <p class="text-success ms-4 mb-0">+34.53%</p>
+                                            </div>
+                                        <div class="d-flex mt-2 mb-3">
+                                                <h1 class="mb-0 text-white">0.04481 </h1>
+                                                <small class="ms-2 mt-4">0.88</small>
+                                        </div>
+                                        </div>
+                                        <div>
+                                            <button class="btn btn-info w-100 mb-3 mb-lg-0">Buy Protocol Finance</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-7 col-lg-7 px-4">
+                                    <div class="start-text d-flex w-100">
+                                            <h5 class="me-2">Buy Protocol Finance </h5>
+                                            <i class="bi bi-link-45deg text-info fs-6"></i>
+                                            <i class="bi bi-star text-info fs-6 ms-auto"></i>
+                                    </div>
+                                    <div class="middle-text">
+                                        <a>What is Protocol Finance?</a>
+                                        <p>The Protocol Finance Vision is to build several decentralized financial applications (Defi - Apps) and then develop these products into full fledged </p>
+                                    </div>
+                                    <div class="mt-4">
+                                        <button class="btn btn-outline-info mt-2 w-100">How to Buy Protocol Finance</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12 col-sm-5 col-lg-5 border-end">
+                                        <div class="media d-flex p-1">
+                                            <img src="assets/BCH.png" alt="John Doe" class="rounded-circle my-auto" style="width:30px;height: 30px;">
+                                            <div class="media-body ms-3">
+                                            <h6 class="mb-0 lead">PFI (Protocol Finance)</h6>
+                                            <small>2021-21-01 10:37</small>
+                                            </div>
+                                        </div>
+                                        <div class="text-middle">
+                                            <div class="d-flex w-100 mt-4">
+                                                <h6>PFI/ETH</h6>
+                                                <p class="text-success ms-4 mb-0">+34.53%</p>
+                                            </div>
+                                        <div class="d-flex mt-2 mb-3">
+                                                <h1 class="mb-0 text-white">0.04481 </h1>
+                                                <small class="ms-2 mt-4">0.88</small>
+                                        </div>
+                                        </div>
+                                        <div>
+                                            <button class="btn btn-info w-100 mb-3 mb-lg-0">Buy Protocol Finance</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-7 col-lg-7 px-4">
+                                    <div class="start-text d-flex w-100">
+                                            <h5 class="me-2">Buy Protocol Finance </h5>
+                                            <i class="bi bi-link-45deg text-info fs-6"></i>
+                                            <i class="bi bi-star text-info fs-6 ms-auto"></i>
+                                    </div>
+                                    <div class="middle-text">
+                                        <a>What is Protocol Finance?</a>
+                                        <p>The Protocol Finance Vision is to build several decentralized financial applications (Defi - Apps) and then develop these products into full fledged </p>
+                                    </div>
+                                    <div class="mt-4">
+                                        <button class="btn btn-outline-info mt-2 w-100">How to Buy Protocol Finance</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12 col-sm-5 col-lg-5 border-end">
+                                        <div class="media d-flex p-1">
+                                            <img src="assets/XRP.png" alt="John Doe" class="rounded-circle my-auto" style="width:30px;height: 30px;">
+                                            <div class="media-body ms-3">
+                                            <h6 class="mb-0 lead">PFI (Protocol Finance)</h6>
+                                            <small>2021-21-01 10:37</small>
+                                            </div>
+                                        </div>
+                                        <div class="text-middle">
+                                            <div class="d-flex w-100 mt-4">
+                                                <h6>PFI/ETH</h6>
+                                                <p class="text-success ms-4 mb-0">+34.53%</p>
+                                            </div>
+                                        <div class="d-flex mt-2 mb-3">
+                                                <h1 class="mb-0 text-white">0.04481 </h1>
+                                                <small class="ms-2 mt-4">0.88</small>
+                                        </div>
+                                        </div>
+                                        <div>
+                                            <button class="btn btn-info w-100 mb-3 mb-lg-0">Buy Protocol Finance</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-7 col-lg-7 px-4">
+                                    <div class="start-text d-flex w-100">
+                                            <h5 class="me-2">Buy Protocol Finance </h5>
+                                            <i class="bi bi-link-45deg text-info fs-6"></i>
+                                            <i class="bi bi-star text-info fs-6 ms-auto"></i>
+                                    </div>
+                                    <div class="middle-text">
+                                        <a>What is Protocol Finance?</a>
+                                        <p>The Protocol Finance Vision is to build several decentralized financial applications (Defi - Apps) and then develop these products into full fledged </p>
+                                    </div>
+                                    <div class="mt-4">
+                                        <button class="btn btn-outline-info mt-2 w-100">How to Buy Protocol Finance</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12 col-sm-5 col-lg-5 border-end">
+                                        <div class="media d-flex p-1">
+                                            <img src="assets/LTC.png" alt="John Doe" class="rounded-circle my-auto" style="width:30px;height: 30px;">
+                                            <div class="media-body ms-3">
+                                            <h6 class="mb-0 lead">PFI (Protocol Finance)</h6>
+                                            <small>2021-21-01 10:37</small>
+                                            </div>
+                                        </div>
+                                        <div class="text-middle">
+                                            <div class="d-flex w-100 mt-4">
+                                                <h6>PFI/ETH</h6>
+                                                <p class="text-success ms-4 mb-0">+34.53%</p>
+                                            </div>
+                                        <div class="d-flex mt-2 mb-3">
+                                                <h1 class="mb-0 text-white">0.04481 </h1>
+                                                <small class="ms-2 mt-4">0.88</small>
+                                        </div>
+                                        </div>
+                                        <div>
+                                            <button class="btn btn-info w-100 mb-3 mb-lg-0">Buy Protocol Finance</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-7 col-lg-7 px-4">
+                                    <div class="start-text d-flex w-100">
+                                            <h5 class="me-2">Buy Protocol Finance </h5>
+                                            <i class="bi bi-link-45deg text-info fs-6"></i>
+                                            <i class="bi bi-star text-info fs-6 ms-auto"></i>
+                                    </div>
+                                    <div class="middle-text">
+                                        <a>What is Protocol Finance?</a>
+                                        <p>The Protocol Finance Vision is to build several decentralized financial applications (Defi - Apps) and then develop these products into full fledged </p>
+                                    </div>
+                                    <div class="mt-4">
+                                        <button class="btn btn-outline-info mt-2 w-100">How to Buy Protocol Finance</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="row">
+                    <div class="col-12 col-lg-6 mt-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12 col-sm-5 col-lg-5 border-end">
+                                        <div class="media d-flex p-1">
+                                            <img src="assets/BTC.png" alt="John Doe" class="rounded-circle my-auto" style="width:30px;height: 30px;">
+                                            <div class="media-body ms-3">
+                                            <h6 class="mb-0 lead">PFI (Protocol Finance)</h6>
+                                            <small>2021-21-01 10:37</small>
+                                            </div>
+                                        </div>
+                                        <div class="text-middle">
+                                            <div class="d-flex w-100 mt-4">
+                                                <h6>PFI/ETH</h6>
+                                                <p class="text-success ms-4 mb-0">+34.53%</p>
+                                            </div>
+                                        <div class="d-flex mt-2 mb-3">
+                                                <h1 class="mb-0 text-white">0.04481 </h1>
+                                                <small class="ms-2 mt-4">0.88</small>
+                                        </div>
+                                        </div>
+                                        <div>
+                                            <button class="btn btn-info w-100 mb-3 mb-lg-0">Buy Protocol Finance</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-7 col-lg-7 px-4">
+                                    <div class="start-text d-flex w-100">
+                                            <h5 class="me-2">Buy Protocol Finance </h5>
+                                            <i class="bi bi-link-45deg text-info fs-6"></i>
+                                            <i class="bi bi-star text-info fs-6 ms-auto"></i>
+                                    </div>
+                                    <div class="middle-text">
+                                        <a>What is Protocol Finance?</a>
+                                        <p>The Protocol Finance Vision is to build several decentralized financial applications (Defi - Apps) and then develop these products into full fledged </p>
+                                    </div>
+                                    <div class="mt-4">
+                                        <button class="btn btn-outline-info mt-2 w-100">How to Buy Protocol Finance</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12 col-sm-5 col-lg-5 border-end">
+                                        <div class="media d-flex p-1">
+                                            <img src="assets/ETH.png" alt="John Doe" class="rounded-circle my-auto" style="width:30px;height: 30px;">
+                                            <div class="media-body ms-3">
+                                            <h6 class="mb-0 lead">PFI (Protocol Finance)</h6>
+                                            <small>2021-21-01 10:37</small>
+                                            </div>
+                                        </div>
+                                        <div class="text-middle">
+                                            <div class="d-flex w-100 mt-4">
+                                                <h6>PFI/ETH</h6>
+                                                <p class="text-success ms-4 mb-0">+34.53%</p>
+                                            </div>
+                                        <div class="d-flex mt-2 mb-3">
+                                                <h1 class="mb-0 text-white">0.04481 </h1>
+                                                <small class="ms-2 mt-4">0.88</small>
+                                        </div>
+                                        </div>
+                                        <div>
+                                            <button class="btn btn-info w-100 mb-3 mb-lg-0">Buy Protocol Finance</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-7 col-lg-7 px-4">
+                                    <div class="start-text d-flex w-100">
+                                            <h5 class="me-2">Buy Protocol Finance </h5>
+                                            <i class="bi bi-link-45deg text-info fs-6"></i>
+                                            <i class="bi bi-star text-info fs-6 ms-auto"></i>
+                                    </div>
+                                    <div class="middle-text">
+                                        <a>What is Protocol Finance?</a>
+                                        <p>The Protocol Finance Vision is to build several decentralized financial applications (Defi - Apps) and then develop these products into full fledged </p>
+                                    </div>
+                                    <div class="mt-4">
+                                        <button class="btn btn-outline-info mt-2 w-100">How to Buy Protocol Finance</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12 col-sm-5 col-lg-5 border-end">
+                                        <div class="media d-flex p-1">
+                                            <img src="assets/LTC.png" alt="John Doe" class="rounded-circle my-auto" style="width:30px;height: 30px;">
+                                            <div class="media-body ms-3">
+                                            <h6 class="mb-0 lead">PFI (Protocol Finance)</h6>
+                                            <small>2021-21-01 10:37</small>
+                                            </div>
+                                        </div>
+                                        <div class="text-middle">
+                                            <div class="d-flex w-100 mt-4">
+                                                <h6>PFI/ETH</h6>
+                                                <p class="text-success ms-4 mb-0">+34.53%</p>
+                                            </div>
+                                        <div class="d-flex mt-2 mb-3">
+                                                <h1 class="mb-0 text-white">0.04481 </h1>
+                                                <small class="ms-2 mt-4">0.88</small>
+                                        </div>
+                                        </div>
+                                        <div>
+                                            <button class="btn btn-info w-100 mb-3 mb-lg-0">Buy Protocol Finance</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-7 col-lg-7 px-4">
+                                    <div class="start-text d-flex w-100">
+                                            <h5 class="me-2">Buy Protocol Finance </h5>
+                                            <i class="bi bi-link-45deg text-info fs-6"></i>
+                                            <i class="bi bi-star text-info fs-6 ms-auto"></i>
+                                    </div>
+                                    <div class="middle-text">
+                                        <a>What is Protocol Finance?</a>
+                                        <p>The Protocol Finance Vision is to build several decentralized financial applications (Defi - Apps) and then develop these products into full fledged </p>
+                                    </div>
+                                    <div class="mt-4">
+                                        <button class="btn btn-outline-info mt-2 w-100">How to Buy Protocol Finance</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12 col-sm-5 col-lg-5 border-end">
+                                        <div class="media d-flex p-1">
+                                            <img src="assets/BCH.png" alt="John Doe" class="rounded-circle my-auto" style="width:30px;height: 30px;">
+                                            <div class="media-body ms-3">
+                                            <h6 class="mb-0 lead">PFI (Protocol Finance)</h6>
+                                            <small>2021-21-01 10:37</small>
+                                            </div>
+                                        </div>
+                                        <div class="text-middle">
+                                            <div class="d-flex w-100 mt-4">
+                                                <h6>PFI/ETH</h6>
+                                                <p class="text-success ms-4 mb-0">+34.53%</p>
+                                            </div>
+                                        <div class="d-flex mt-2 mb-3">
+                                                <h1 class="mb-0 text-white">0.04481 </h1>
+                                                <small class="ms-2 mt-4">0.88</small>
+                                        </div>
+                                        </div>
+                                        <div>
+                                            <button class="btn btn-info w-100 mb-3 mb-lg-0">Buy Protocol Finance</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-7 col-lg-7 px-4">
+                                    <div class="start-text d-flex w-100">
+                                            <h5 class="me-2">Buy Protocol Finance </h5>
+                                            <i class="bi bi-link-45deg text-info fs-6"></i>
+                                            <i class="bi bi-star text-info fs-6 ms-auto"></i>
+                                    </div>
+                                    <div class="middle-text">
+                                        <a>What is Protocol Finance?</a>
+                                        <p>The Protocol Finance Vision is to build several decentralized financial applications (Defi - Apps) and then develop these products into full fledged </p>
+                                    </div>
+                                    <div class="mt-4">
+                                        <button class="btn btn-outline-info mt-2 w-100">How to Buy Protocol Finance</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12 col-sm-5 col-lg-5 border-end">
+                                        <div class="media d-flex p-1">
+                                            <img src="assets/XRP.png" alt="John Doe" class="rounded-circle my-auto" style="width:30px;height: 30px;">
+                                            <div class="media-body ms-3">
+                                            <h6 class="mb-0 lead">PFI (Protocol Finance)</h6>
+                                            <small>2021-21-01 10:37</small>
+                                            </div>
+                                        </div>
+                                        <div class="text-middle">
+                                            <div class="d-flex w-100 mt-4">
+                                                <h6>PFI/ETH</h6>
+                                                <p class="text-success ms-4 mb-0">+34.53%</p>
+                                            </div>
+                                        <div class="d-flex mt-2 mb-3">
+                                                <h1 class="mb-0 text-white">0.04481 </h1>
+                                                <small class="ms-2 mt-4">0.88</small>
+                                        </div>
+                                        </div>
+                                        <div>
+                                            <button class="btn btn-info w-100 mb-3 mb-lg-0">Buy Protocol Finance</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-7 col-lg-7 px-4">
+                                    <div class="start-text d-flex w-100">
+                                            <h5 class="me-2">Buy Protocol Finance </h5>
+                                            <i class="bi bi-link-45deg text-info fs-6"></i>
+                                            <i class="bi bi-star text-info fs-6 ms-auto"></i>
+                                    </div>
+                                    <div class="middle-text">
+                                        <a>What is Protocol Finance?</a>
+                                        <p>The Protocol Finance Vision is to build several decentralized financial applications (Defi - Apps) and then develop these products into full fledged </p>
+                                    </div>
+                                    <div class="mt-4">
+                                        <button class="btn btn-outline-info mt-2 w-100">How to Buy Protocol Finance</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12 col-sm-5 col-lg-5 border-end">
+                                        <div class="media d-flex p-1">
+                                            <img src="assets/LTC.png" alt="John Doe" class="rounded-circle my-auto" style="width:30px;height: 30px;">
+                                            <div class="media-body ms-3">
+                                            <h6 class="mb-0 lead">PFI (Protocol Finance)</h6>
+                                            <small>2021-21-01 10:37</small>
+                                            </div>
+                                        </div>
+                                        <div class="text-middle">
+                                            <div class="d-flex w-100 mt-4">
+                                                <h6>PFI/ETH</h6>
+                                                <p class="text-success ms-4 mb-0">+34.53%</p>
+                                            </div>
+                                        <div class="d-flex mt-2 mb-3">
+                                                <h1 class="mb-0 text-white">0.04481 </h1>
+                                                <small class="ms-2 mt-4">0.88</small>
+                                        </div>
+                                        </div>
+                                        <div>
+                                            <button class="btn btn-info w-100 mb-3 mb-lg-0">Buy Protocol Finance</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-7 col-lg-7 px-4">
+                                    <div class="start-text d-flex w-100">
+                                            <h5 class="me-2">Buy Protocol Finance </h5>
+                                            <i class="bi bi-link-45deg text-info fs-6"></i>
+                                            <i class="bi bi-star text-info fs-6 ms-auto"></i>
+                                    </div>
+                                    <div class="middle-text">
+                                        <a>What is Protocol Finance?</a>
+                                        <p>The Protocol Finance Vision is to build several decentralized financial applications (Defi - Apps) and then develop these products into full fledged </p>
+                                    </div>
+                                    <div class="mt-4">
+                                        <button class="btn btn-outline-info mt-2 w-100">How to Buy Protocol Finance</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <div class="row">
+                    <div class="col-12 col-lg-6 mt-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12 col-sm-5 col-lg-5 border-end">
+                                        <div class="media d-flex p-1">
+                                            <img src="assets/BTC.png" alt="John Doe" class="rounded-circle my-auto" style="width:30px;height: 30px;">
+                                            <div class="media-body ms-3">
+                                            <h6 class="mb-0 lead">PFI (Protocol Finance)</h6>
+                                            <small>2021-21-01 10:37</small>
+                                            </div>
+                                        </div>
+                                        <div class="text-middle">
+                                            <div class="d-flex w-100 mt-4">
+                                                <h6>PFI/ETH</h6>
+                                                <p class="text-success ms-4 mb-0">+34.53%</p>
+                                            </div>
+                                        <div class="d-flex mt-2 mb-3">
+                                                <h1 class="mb-0 text-white">0.04481 </h1>
+                                                <small class="ms-2 mt-4">0.88</small>
+                                        </div>
+                                        </div>
+                                        <div>
+                                            <button class="btn btn-info w-100 mb-3 mb-lg-0">Buy Protocol Finance</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-7 col-lg-7 px-4">
+                                    <div class="start-text d-flex w-100">
+                                            <h5 class="me-2">Buy Protocol Finance </h5>
+                                            <i class="bi bi-link-45deg text-info fs-6"></i>
+                                            <i class="bi bi-star text-info fs-6 ms-auto"></i>
+                                    </div>
+                                    <div class="middle-text">
+                                        <a>What is Protocol Finance?</a>
+                                        <p>The Protocol Finance Vision is to build several decentralized financial applications (Defi - Apps) and then develop these products into full fledged </p>
+                                    </div>
+                                    <div class="mt-4">
+                                        <button class="btn btn-outline-info mt-2 w-100">How to Buy Protocol Finance</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12 col-sm-5 col-lg-5 border-end">
+                                        <div class="media d-flex p-1">
+                                            <img src="assets/ETH.png" alt="John Doe" class="rounded-circle my-auto" style="width:30px;height: 30px;">
+                                            <div class="media-body ms-3">
+                                            <h6 class="mb-0 lead">PFI (Protocol Finance)</h6>
+                                            <small>2021-21-01 10:37</small>
+                                            </div>
+                                        </div>
+                                        <div class="text-middle">
+                                            <div class="d-flex w-100 mt-4">
+                                                <h6>PFI/ETH</h6>
+                                                <p class="text-success ms-4 mb-0">+34.53%</p>
+                                            </div>
+                                        <div class="d-flex mt-2 mb-3">
+                                                <h1 class="mb-0 text-white">0.04481 </h1>
+                                                <small class="ms-2 mt-4">0.88</small>
+                                        </div>
+                                        </div>
+                                        <div>
+                                            <button class="btn btn-info w-100 mb-3 mb-lg-0">Buy Protocol Finance</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-7 col-lg-7 px-4">
+                                    <div class="start-text d-flex w-100">
+                                            <h5 class="me-2">Buy Protocol Finance </h5>
+                                            <i class="bi bi-link-45deg text-info fs-6"></i>
+                                            <i class="bi bi-star text-info fs-6 ms-auto"></i>
+                                    </div>
+                                    <div class="middle-text">
+                                        <a>What is Protocol Finance?</a>
+                                        <p>The Protocol Finance Vision is to build several decentralized financial applications (Defi - Apps) and then develop these products into full fledged </p>
+                                    </div>
+                                    <div class="mt-4">
+                                        <button class="btn btn-outline-info mt-2 w-100">How to Buy Protocol Finance</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12 col-sm-5 col-lg-5 border-end">
+                                        <div class="media d-flex p-1">
+                                            <img src="assets/LTC.png" alt="John Doe" class="rounded-circle my-auto" style="width:30px;height: 30px;">
+                                            <div class="media-body ms-3">
+                                            <h6 class="mb-0 lead">PFI (Protocol Finance)</h6>
+                                            <small>2021-21-01 10:37</small>
+                                            </div>
+                                        </div>
+                                        <div class="text-middle">
+                                            <div class="d-flex w-100 mt-4">
+                                                <h6>PFI/ETH</h6>
+                                                <p class="text-success ms-4 mb-0">+34.53%</p>
+                                            </div>
+                                        <div class="d-flex mt-2 mb-3">
+                                                <h1 class="mb-0 text-white">0.04481 </h1>
+                                                <small class="ms-2 mt-4">0.88</small>
+                                        </div>
+                                        </div>
+                                        <div>
+                                            <button class="btn btn-info w-100 mb-3 mb-lg-0">Buy Protocol Finance</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-7 col-lg-7 px-4">
+                                    <div class="start-text d-flex w-100">
+                                            <h5 class="me-2">Buy Protocol Finance </h5>
+                                            <i class="bi bi-link-45deg text-info fs-6"></i>
+                                            <i class="bi bi-star text-info fs-6 ms-auto"></i>
+                                    </div>
+                                    <div class="middle-text">
+                                        <a>What is Protocol Finance?</a>
+                                        <p>The Protocol Finance Vision is to build several decentralized financial applications (Defi - Apps) and then develop these products into full fledged </p>
+                                    </div>
+                                    <div class="mt-4">
+                                        <button class="btn btn-outline-info mt-2 w-100">How to Buy Protocol Finance</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12 col-sm-5 col-lg-5 border-end">
+                                        <div class="media d-flex p-1">
+                                            <img src="assets/BCH.png" alt="John Doe" class="rounded-circle my-auto" style="width:30px;height: 30px;">
+                                            <div class="media-body ms-3">
+                                            <h6 class="mb-0 lead">PFI (Protocol Finance)</h6>
+                                            <small>2021-21-01 10:37</small>
+                                            </div>
+                                        </div>
+                                        <div class="text-middle">
+                                            <div class="d-flex w-100 mt-4">
+                                                <h6>PFI/ETH</h6>
+                                                <p class="text-success ms-4 mb-0">+34.53%</p>
+                                            </div>
+                                        <div class="d-flex mt-2 mb-3">
+                                                <h1 class="mb-0 text-white">0.04481 </h1>
+                                                <small class="ms-2 mt-4">0.88</small>
+                                        </div>
+                                        </div>
+                                        <div>
+                                            <button class="btn btn-info w-100 mb-3 mb-lg-0">Buy Protocol Finance</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-7 col-lg-7 px-4">
+                                    <div class="start-text d-flex w-100">
+                                            <h5 class="me-2">Buy Protocol Finance </h5>
+                                            <i class="bi bi-link-45deg text-info fs-6"></i>
+                                            <i class="bi bi-star text-info fs-6 ms-auto"></i>
+                                    </div>
+                                    <div class="middle-text">
+                                        <a>What is Protocol Finance?</a>
+                                        <p>The Protocol Finance Vision is to build several decentralized financial applications (Defi - Apps) and then develop these products into full fledged </p>
+                                    </div>
+                                    <div class="mt-4">
+                                        <button class="btn btn-outline-info mt-2 w-100">How to Buy Protocol Finance</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12 col-sm-5 col-lg-5 border-end">
+                                        <div class="media d-flex p-1">
+                                            <img src="assets/XRP.png" alt="John Doe" class="rounded-circle my-auto" style="width:30px;height: 30px;">
+                                            <div class="media-body ms-3">
+                                            <h6 class="mb-0 lead">PFI (Protocol Finance)</h6>
+                                            <small>2021-21-01 10:37</small>
+                                            </div>
+                                        </div>
+                                        <div class="text-middle">
+                                            <div class="d-flex w-100 mt-4">
+                                                <h6>PFI/ETH</h6>
+                                                <p class="text-success ms-4 mb-0">+34.53%</p>
+                                            </div>
+                                        <div class="d-flex mt-2 mb-3">
+                                                <h1 class="mb-0 text-white">0.04481 </h1>
+                                                <small class="ms-2 mt-4">0.88</small>
+                                        </div>
+                                        </div>
+                                        <div>
+                                            <button class="btn btn-info w-100 mb-3 mb-lg-0">Buy Protocol Finance</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-7 col-lg-7 px-4">
+                                    <div class="start-text d-flex w-100">
+                                            <h5 class="me-2">Buy Protocol Finance </h5>
+                                            <i class="bi bi-link-45deg text-info fs-6"></i>
+                                            <i class="bi bi-star text-info fs-6 ms-auto"></i>
+                                    </div>
+                                    <div class="middle-text">
+                                        <a>What is Protocol Finance?</a>
+                                        <p>The Protocol Finance Vision is to build several decentralized financial applications (Defi - Apps) and then develop these products into full fledged </p>
+                                    </div>
+                                    <div class="mt-4">
+                                        <button class="btn btn-outline-info mt-2 w-100">How to Buy Protocol Finance</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12 col-sm-5 col-lg-5 border-end">
+                                        <div class="media d-flex p-1">
+                                            <img src="assets/LTC.png" alt="John Doe" class="rounded-circle my-auto" style="width:30px;height: 30px;">
+                                            <div class="media-body ms-3">
+                                            <h6 class="mb-0 lead">PFI (Protocol Finance)</h6>
+                                            <small>2021-21-01 10:37</small>
+                                            </div>
+                                        </div>
+                                        <div class="text-middle">
+                                            <div class="d-flex w-100 mt-4">
+                                                <h6>PFI/ETH</h6>
+                                                <p class="text-success ms-4 mb-0">+34.53%</p>
+                                            </div>
+                                        <div class="d-flex mt-2 mb-3">
+                                                <h1 class="mb-0 text-white">0.04481 </h1>
+                                                <small class="ms-2 mt-4">0.88</small>
+                                        </div>
+                                        </div>
+                                        <div>
+                                            <button class="btn btn-info w-100 mb-3 mb-lg-0">Buy Protocol Finance</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-7 col-lg-7 px-4">
+                                    <div class="start-text d-flex w-100">
+                                            <h5 class="me-2">Buy Protocol Finance </h5>
+                                            <i class="bi bi-link-45deg text-info fs-6"></i>
+                                            <i class="bi bi-star text-info fs-6 ms-auto"></i>
+                                    </div>
+                                    <div class="middle-text">
+                                        <a>What is Protocol Finance?</a>
+                                        <p>The Protocol Finance Vision is to build several decentralized financial applications (Defi - Apps) and then develop these products into full fledged </p>
+                                    </div>
+                                    <div class="mt-4">
+                                        <button class="btn btn-outline-info mt-2 w-100">How to Buy Protocol Finance</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+<!-- <section class="section">
+    <div class="container"> 
+        <h2 class="text-uppercase text-info py-3">Fudax Crypto News</h2>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-6 mb-3 mb-lg-0 news-block">
+                <div class="card p-3 p-lg-5">
+                    <div class="d-flex w-100 text-white">
+                        <h5 class="mb-0">Feb 04, 2021. 11:46</h5>
+                        <span class="my-auto ms-auto"><i class="bi bi-tag text-info me-1"></i> bitrockz</span>
+                    </div>
+                    <h3>A Real Investors Revolutions? <br>WallstreetBets and Gametop Movement.. </h3>
+                    <h6>I. Wall Street & GameStop Over the past two days, global investors have witnessed history again!... <a href="#" class="link-info">Read more</a></h6>
+                    <img class="img-fluid" src="assets/news4.png" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-6 news-tab">
+                <div class="card mb-3 border-0">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 text-white px-4 py-2">
+                            <h4>Bitrockz joins coolBitX An alliance to complay withFATF Travell</h4>
+                            <h6>Jan 19 2021 <span class="ms-4"><i class="bi bi-tag"></i> bitrockz</span></h6>
+                            <h5>Taipei, Taiwan — 19 January 2021 — DigiFinex, a world-leading digital assets trading platform <a href="#" class="ms-1 link-info">read more</a></h5>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <img class="rounded-end" height="175px" width="100%" src="assets/news1.jpg" alt="news">
+                        </div>
+                </div>
+                </div>
+                <div class="card mb-3 border-0">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 text-white px-4 py-2">
+                            <h4>Bitrockz joins coolBitX An alliance to complay withFATF Travell</h4>
+                            <h6>Jan 19 2021 <span class="ms-4"><i class="bi bi-tag"></i> bitrockz</span></h6>
+                            <h5>Taipei, Taiwan — 19 January 2021 — DigiFinex, a world-leading digital assets trading platform<a href="#" class="ms-1 link-info">read more</a></h5>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <img class="rounded-end" height="175px" width="100%" src="assets/news2.png" alt="news">
+                        </div>
+                </div>
+                </div>
+                <div class="card mb-3 border-0">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 text-white px-4 py-2">
+                            <h4>Bitrockz joins coolBitX An alliance to complay withFATF Travell</h4>
+                            <h6>Jan 19 2021 <span class="ms-4"><i class="bi bi-tag"></i> bitrockz</span></h6>
+                            <h5>Taipei, Taiwan — 19 January 2021 — DigiFinex, a world-leading digital assets trading platform <a href="#" class="ms-1 link-info">read more</a></h5>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <img class="rounded-end" height="175px" width="100%" src="assets/news3.png" alt="news">
+                        </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+<section class="section bg-dark mobile-app">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-5 col-lg-5 mb-3 mb-lg-0 mx-auto d-flex">
+                <img class="img-fluid mx-auto"  src="assets/features-3.svg" alt="">
+            </div>
+            <div class="col-12 col-sm-1 col-lg-1"></div>
+            <div class="col-12 col-sm-5 col-lg-6 my-auto">
+                <h3 class="text-info text-uppercase my-4">All platform coverage<br> One-stop crypto investment platform</h3>
+                <div class="d-lg-flex d-inline">
+                    <img class="" height="35px" src="assets/appstore.png" alt="appstore">
+                    <img class="ms-lg-3 ms-0" height="40px" src="assets/googleplay.png" alt="playstore">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+ 
+<section class="section services">
+    <div class="container">
+        <div class="section-title">
+            <h2>Features</h2>
+            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mt-3" data-aos="fade-up">
+                <div class="icon-box icon-box-pink">
+                    <div class="icon"><i class="bi bi-command"></i></div>
+                    <h4 class="title"><a href="">User-First</a></h4>
+                    <p class="description">Serving global users with 24/7 exchange services, multilingual support, strong community backup, and professional customer service.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mt-3" data-aos="fade-up" data-aos-delay="100">
+                <div class="icon-box icon-box-cyan">
+                    <div class="icon"><i class="bi bi-file-earmark-bar-graph"></i></div>
+                    <h4 class="title"><a href="">CoinEx Community</a></h4>
+                    <p class="description">Join our worldwide communities to exchange ideas with cryptocurrency enthusiasts all over the world.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mt-3" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box icon-box-green">
+                    <div class="icon"><i class="bi bi-speedometer2"></i></div>
+                    <h4 class="title"><a href="">24/7 Expert Support</a></h4>
+                    <p class="description">Got a problem? No worries. Our expert team is available around the clock through online support, emails and Requests.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mt-3" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box icon-box-blue">
+                    <div class="icon"><i class="bi bi-globe2"></i></div>
+                    <h4 class="title"><a href="">Fudax Ambassador</a></h4>
+                    <p class="description">By joining in Fudax Ambassador Team, our Ambassadors can deeply involve in the exchange's marketing operations.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<app-footer></app-footer>

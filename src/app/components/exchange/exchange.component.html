@@ -1,0 +1,37 @@
+   <app-header></app-header>
+
+    <section>
+        <div class="container mt-5">
+           <div class="row">
+                <div class="col-12 col-sm-8 col-lg-6 mx-auto">
+                    <div class="card shadow"> 
+                        <div class="card-header py-4 text-success text-capitalize">
+                            <h5 class="mb-0"><span class="text-danger">Q : </span> {{ quizzes[randomQuiz].question}}</h5>
+                        </div>
+                        <div class="card-body"  *ngIf="currentQuizzes < 5">
+                            <h4 class="text-center text-info"> {{currentQuizzes + 1}} of {{quizzes.length}}</h4>
+                            <ul class="list-group" *ngFor="let quiz of quizzes[randomQuiz].answer">
+                                <li class="list-group-item mt-2" >
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" appBackground [correctAnswer]='quiz.correct' name="options" (change)="onAnswer(quiz.correct)" [disabled]="selectedAnswer">
+                                        <label class="form-check-label text-capitalize">
+                                            {{quiz.option}}
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer" *ngIf="currentQuizzes > 4">
+                            <div class="text-center">
+                                <button class="btn btn-success btn-sm my-3" (click)="showResult()">Result</button>
+                                <h6 *ngIf="result">
+                                    <span class="text-success">Correct Answer :</span>  {{correctAnswer}} | 
+                                    <span class="text-danger">Incorrect Answer :</span> {{incorrectAnswer}}
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </section>

@@ -1,0 +1,339 @@
+$dark: #0d2735;
+$info: #3b6580;
+$primary: #213c4b;
+$secondary: #0a1b26;
+
+/*----------------- Global Styles ----------------*/
+* {
+    font-family: "Lato", sans-serif;
+  }
+  .section {
+    padding: 75px 0;
+  }
+  .border-end {
+    border-right: 1px solid #515151 !important;
+  }
+  .border-primary{
+        border-top: 1px solid $primary !important;
+  }
+/*----------------- Section Title -------------------*/
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .section-title h2 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  
+  .section-title h2::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+  }
+  
+  .section-title h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #68A4C4;
+    bottom: 0;
+    left: calc(50% - 20px);
+  }
+  
+  .section-title p {
+    margin-bottom: 0;
+  }
+
+  /*---------------- Main Section ------------*/
+  
+    .main-section {
+        padding: 85px 0 85px;
+    
+        h1 {
+        font-size: 54px;
+        font-weight: lighter;
+        }
+        p {
+        color: $info;
+        font-family: "Roboto", sans-serif;
+        }
+        small {
+        font-family: "Open Sans", sans-serif;
+        }
+        img {
+        height: 200px;
+        }
+    }
+    
+    @media (min-width: 300px) and (max-width: 575px) {
+        .owl-carousel .item img {
+        height: 175px;
+        }
+    }
+    @media (min-width: 576px) and (max-width: 767px) {
+        .owl-carousel .item img {
+        height: 175px;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+        .owl-carousel .item img {
+        height: 175px;
+        }
+  }
+  /*---------------- Breaking News -------------*/
+  
+  /*-------------- Coins Card ------------------*/
+  
+    .coins-card {
+        background-color: $secondary;
+        .card {
+            background-color: $dark;
+            .media h6 {
+                font-size: 13px;
+                color: #0dcaf0;
+            }
+            .media small {
+                font-size: 14px;
+                color: #e2e2e2;
+            }
+            .content h6,
+            h5 {
+                font-size: 13px;
+                color: #515151;
+                margin-bottom: 3px;
+            }
+            .content h3 {
+                font-size: 30px;
+                color: #fff;
+                margin-bottom: 0;
+            }
+        }
+    }
+  
+  /*---------------- Markets -----------------*/
+  .markets {
+    padding: 75px 0;
+    .table h5 {
+      font-size: 18px;
+      font-weight: 600;
+      color: #717171;
+    }
+    .table small {
+      font-size: 15px;
+      font-weight: 400;
+      color: #8c8b8b;
+    }
+  }
+  
+  /*------------- Card Section ----------------*/
+  
+  .nav-pills .nav-link.active,
+  .nav-pills .show > .nav-link {
+    color: #222;
+    background-color: #0dcaf0;
+  }
+  .nav-pills .nav-link {
+    color: #0dcaf0;
+    background-color: transparent;
+  }
+  #cards .media h6 {
+    color: #fff;
+    font-size: 14px;
+    color: #999;
+    font-weight: 500;
+    font-family: "Truculenta", sans-serif;
+  }
+  #cards .media small {
+    color: #fff;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #999;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+  }
+  #cards.text-middle h6 {
+    color: #999;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  #cards.text-middle p {
+    color: #999;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  #cards.text-middle small {
+    color: #999;
+  }
+  #cards.start-text h5 {
+    color: #999;
+  }
+  #cards.middle-text {
+    margin-top: 1.5rem;
+  }
+  #cards .middle-text a {
+    font-size: 14px;
+    color: #999999;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  #cards .middle-text p {
+    font-size: 12px;
+    color: #999999;
+    margin-top: 5px;
+  }
+  
+  /*-------------------- News Section -----------------*/
+  .news-block .card {
+    background-color: $dark;
+  }
+  .news-block h5 {
+    font-size: 16px;
+    color: #999;
+  }
+  .news-block h3 {
+    margin: 8px 0px;
+    color: #e2e2e2;
+    font-size: 25px;
+  }
+  .news-block h6 {
+    margin: 18px 0px 30px;
+    color: #999;
+    font-size: 14px;
+  }
+  .news-tab h4 {
+    font-size: 17px;
+    color: rgb(206, 206, 206);
+    font-family: "Open Sans", sans-serif;
+  }
+  .news-tab h6 {
+    font-size: 13px;
+    color: #999999;
+    font-weight: 400;
+    padding: 5px 0 8px;
+  }
+  .news-tab h5 {
+    font-size: 12px;
+    color: #999999;
+    font-weight: 400;
+  }
+  
+  /*--------------------------------------------------------------
+  # Mobile App
+  --------------------------------------------------------------*/
+  @media (max-width: 991px) and (min-width: 575px) {
+    .mobile-app h3 {
+      font-size: 14px;
+    }
+    .mobile-app img {
+      margin-top: 10px;
+    }
+  }
+  
+  /*--------------------------------------------------------------
+  # Our Services
+  --------------------------------------------------------------*/
+  .services {
+    background-color: #e9e9e9;
+  }
+  .services .icon-box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    border: 1px solid #fff;
+  }
+  
+  .services .icon {
+    margin: 0 auto 20px auto;
+    padding-top: 17px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+  }
+  
+  .services .icon i {
+    font-size: 36px;
+    line-height: 1;
+  }
+  
+  .services .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .services .title a {
+    color: #111;
+    text-decoration: none;
+  }
+  
+  .services .description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
+  
+  .services .icon-box-pink .icon {
+    background: #fceef3;
+  }
+  
+  .services .icon-box-pink .icon i {
+    color: #ff689b;
+  }
+  
+  .services .icon-box-pink:hover {
+    border-color: #ff689b;
+  }
+  
+  .services .icon-box-cyan .icon {
+    background: #e6fdfc;
+  }
+  
+  .services .icon-box-cyan .icon i {
+    color: #3fcdc7;
+  }
+  
+  .services .icon-box-cyan:hover {
+    border-color: #3fcdc7;
+  }
+  
+  .services .icon-box-green .icon {
+    background: #eafde7;
+  }
+  
+  .services .icon-box-green .icon i {
+    color: #41cf2e;
+  }
+  
+  .services .icon-box-green:hover {
+    border-color: #41cf2e;
+  }
+  
+  .services .icon-box-blue .icon {
+    background: #e1eeff;
+  }
+  
+  .services .icon-box-blue .icon i {
+    color: #2282ff;
+  }
+  
+  .services .icon-box-blue:hover {
+    border-color: #2282ff;
+  }
